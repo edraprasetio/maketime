@@ -1,10 +1,10 @@
 import React from 'react'
-import Main from './pages/Main'
+import { Background } from './components/background'
 
 function App() {
     return (
         <div>
-            <Main />
+            <Background>Hello World</Background>
         </div>
     )
 }
